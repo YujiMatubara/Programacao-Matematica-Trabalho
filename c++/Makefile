@@ -1,8 +1,8 @@
 compiler = g++
-flags = -O3 -Wall -lm -lCbc -lOsiClp -lOsi
+flags = -Ofast -march=native -Wall -lm -lCbc -lOsiClp -lOsi
 scriptname = run4All.sh
 
-args = ../cases/toy_problem.txt
+args = ../cases/insta/inst_1_1000.txt
 
 all:
 	$(compiler) main.cpp -o Main.bin $(flags)

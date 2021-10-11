@@ -20,7 +20,7 @@ using namespace std;
 int main(int argc, char *argv[]){
     OsiClpSolverInterface solver;
 
-    int numMpsReadErrors = solver.readMps("model.mps");
+    int numMpsReadErrors = solver.readLp("model.lp");
 
     CbcModel model(solver);
 

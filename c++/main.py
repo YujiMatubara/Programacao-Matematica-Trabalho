@@ -1,51 +1,41 @@
-#from pulp import *
-
-import mip as mp 
+from mip import Model, BINARY, MAXIMIZE, solver, xsum, CBC, maximize
 import pandas as pd
 import numpy as np
 import sys
 
 
-
 #Importing data
 path = sys.argv[1] #Define path for input file
-data = pd.read_csv(path, sep = " ", header = None) #Matrix with data
-data.drop(data.columns[data.shape[1] - 1], axis = 1, inplace = True) #Cleaning the last column
-data = data.to_numpy() #Transforming to numpy matrix
-
-#lp = LpProblem("model", LpMaximize)
-#x = LpVariable.matrix("x", data, cat="Binary")
+c = pd.read_csv(path, sep = " ", header = None) #Matrix with data
+c.drop(c.columns[c.shape[1] - 1], axis = 1, inplace = True) #Cleaning the last column
+c = c.to_numpy() #Transforming to numpy matrix
 
 
-#############MODELAGEM############
+#Inst model
+m = Model(sense=MAXIMIZE, solver_name=CBC,solver_name="solver")
 
-#Objective function
-for i in range(0,int(np.sqrt(data.size))):
-    for j in range(0,int(np.sqrt(data.size))):
-        lp += lpSum(data[i][j] * x.index(i,j))
+n = len(c) #Finding matrix n
+N = set(range(n)) # Define 
 
+#Define x type and interval N²
+x = [{j: m.add_var(var_type=BINARY) for j in N} for i in N]
 
-aux = 0
-#Constraints
-for i in range(0,int(np.sqrt(data.size))):
-    for j in range(0,int(np.sqrt(data.size))):
-        aux += lpSum(x.index(i,j)) == 1
-    lp += aux
-    aux = 0
+#Σ Σ c_ij * x_ij (Funcao objetivo)
+m.objective = xsum(xsum(c[i][j] * x[i][j] for i in N) for j in N)
 
-for i in range(0,int(np.sqrt(data.size))):
-    for j in range(0,int(np.sqrt(data.size))):
-        aux += lpSum(x.index(j,i)) == 1
-    lp += aux
-    aux = 0
+#Σ x_ij == 1 (Restricoes)
+for i in N:
+    m += xsum(x[i][j] for j in N) == 1
 
-##################################
+for j in N:
+    m += xsum(x[i][j] for i in N) == 1
 
-lp.solve()
+m.write('model.lp')
 
-for i in range(0,int(np.sqrt(data.size))):
-    for j in range(0,int(np.sqrt(data.size))):
-        print(x.index(i,j))
-
-lp.writeMPS("model.mps")
-#os.system("make cpp")
+#m.optimize()
+#for i in [j for j in N if x[j][j].x >= 0.99]:
+#    print(
+#        "Items grouped with {} : {}".format(
+#            i, [j for j in N if i != j and x[i][j].x >= 0.99]
+#        )
+#    )
