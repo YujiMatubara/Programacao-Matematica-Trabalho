@@ -1,0 +1,2 @@
+model = read('./model.lp')
+model.optimize()

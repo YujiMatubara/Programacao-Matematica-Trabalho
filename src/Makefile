@@ -1,6 +1,7 @@
 compiler = g++
-flags = -O3 -march=native -Wall -lm -lCbc -lOsiClp -lOsi -lpthread
+flags = -O3 -march=native -Wall -lm -lCbc -lOsiClp -lOsi -lpthread -lgurobi_c++ -lgurobi91
 scriptname = run4All.sh
+GUROBI_HOME="/home/tomieiro/gurobi"
 
 #args = ../cases/insta/inst_1_1000.txt
 
@@ -11,7 +12,7 @@ run:
 	python3 main.py $(args)
 
 cpp:
-	./Main.bin
+	./Main.bin 1
 
 python:
 	python3 main.py

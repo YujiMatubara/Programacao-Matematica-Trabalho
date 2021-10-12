@@ -1,9 +1,7 @@
 import io
 from mip import Model, BINARY, MAXIMIZE, solver, xsum, CBC, maximize
 import pandas as pd
-import sys, os
-
-from pycparser import preprocess_file
+import sys
 
 
 #Importing data
