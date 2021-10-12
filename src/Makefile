@@ -3,10 +3,9 @@ flags = -O3 -march=native -Wall -lm -lCbc -lOsiClp -lOsi -lpthread -lgurobi_c++ 
 scriptname = run4All.sh
 GUROBI_HOME="/home/tomieiro/gurobi"
 
-#args = ../cases/insta/inst_1_1000.txt
 
 all:
-	$(compiler) main.cpp -o Main.bin $(flags)
+	$(compiler) main.cpp Hungarian.cpp -o Main.bin $(flags)
 
 run:
 	python3 main.py $(args)
@@ -31,3 +30,6 @@ clean:
 	rm ../results/gurobi/cases/rb/* |\
 	rm ../results/hungaro/cases/ra/* |\
 	rm ../results/hungaro/cases/rb/*
+
+lib:
+	git clone https://github.com/mcximing/hungarian-algorithm-cpp.git

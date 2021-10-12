@@ -12,6 +12,7 @@
 #include <signal.h>
 #include <string>
 #include "gurobi_c++.h"
+#include "Hungarian.h"
 
 
 using namespace std;
@@ -106,7 +107,24 @@ int main(int argc, char *argv[]){
     //HUNGARO
     else if(atoi(argv[1]) == 2){
 
+
+        vector<vector<double>> c;
+        //FAZER A LEITURA AQUI//
+        //LER DOS ARQUIVOS TXT E GUARDAR EM VECTOR<VECTOR<double>> QUE EH O C ALI EMBAIXO
+
         unsigned int time = 80;
+        double custo;
+        
+        vector<int> A;
+        HungarianAlgorithm model;
+
+        custo  = model.Solve(c, A);
+
+        for (unsigned int i = 0; i < c.size(); i++){
+            printf("x_%d = %d",A[i]);
+        }
+
+        printf("Cost: %lf",custo);
 
         pthread_create(&(thread[0]), NULL, time_limit, &time);
         pthread_create(&thread[1], NULL, hungaro, NULL);
