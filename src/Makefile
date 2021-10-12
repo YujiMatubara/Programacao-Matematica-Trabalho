@@ -12,7 +12,7 @@ run:
 	python3 main.py $(args)
 
 cpp:
-	./Main.bin 1
+	./Main.bin 0
 
 python:
 	python3 main.py

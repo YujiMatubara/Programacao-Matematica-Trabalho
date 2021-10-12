@@ -1,0 +1,84 @@
+Academic license - for non-commercial use only - expires 2022-10-07
+Read LP format model from file ./model.lp
+Reading time = 2.71 seconds
+OBJROW: 2000 rows, 1000000 columns, 2000000 nonzeros
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 2000 rows, 1000000 columns and 2000000 nonzeros
+Model fingerprint: 0x833e5c51
+Variable types: 0 continuous, 1000000 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [5e+00, 5e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective -27775.88094
+Presolve time: 3.76s
+Presolved: 2000 rows, 1000000 columns, 2000000 nonzeros
+Variable types: 0 continuous, 1000000 integer (1000000 binary)
+
+Starting sifting (using dual simplex for sub-problems)...
+
+    Iter     Pivots    Primal Obj      Dual Obj        Time
+       0          0     infinity     -2.7496367e+07      5s
+       1       2000   1.9587606e+12  -2.1625575e+07      5s
+       2       5828   1.9292327e+12  -2.0991028e+07      5s
+       3       9676   1.8998268e+12  -2.0359938e+07      6s
+       4      13501   1.8703789e+12  -1.9734303e+07      6s
+       5      17331   1.8411170e+12  -1.9126478e+07      6s
+       6      21139   1.8116732e+12  -1.8520642e+07      7s
+       7      24956   1.7822113e+12  -1.7931529e+07      7s
+       8      28764   1.7528915e+12  -1.7351356e+07      7s
+       9      32569   1.7234676e+12  -1.6771925e+07      8s
+      10      36362   1.6941478e+12  -1.6206727e+07      8s
+      11      40170   1.6647940e+12  -1.5651232e+07      8s
+      12      43965   1.6328882e+12  -1.5058751e+07      9s
+      13      47786   1.5983004e+12  -1.4431398e+07      9s
+      14      51582   1.5609867e+12  -1.3762415e+07      9s
+      15      55394   1.5208630e+12  -1.3072543e+07     10s
+      16      59190   1.4781553e+12  -1.2347814e+07     10s
+      17      63022   1.4329077e+12  -1.1610381e+07     10s
+      18      66839   1.3850201e+12  -1.0855068e+07     11s
+      19      70661   1.3345526e+12  -1.0077082e+07     11s
+      20      74480   1.2813312e+12  -9.2940456e+06     11s
+      21      78294   1.2253118e+12  -8.5042319e+06     12s
+      22      82111   1.1669045e+12  -7.7219835e+06     12s
+      23      85941   1.1060292e+12  -6.9482404e+06     12s
+      24      89782   1.0422080e+12  -6.1811363e+06     13s
+      25      93620   9.7603893e+11  -5.4278608e+06     13s
+      26      97460   9.0724191e+11  -4.6983591e+06     13s
+      27     101287   8.3585700e+11  -3.9911157e+06     14s
+      28     105123   7.6164418e+11  -3.3169471e+06     14s
+      29     108945   6.8489748e+11  -2.6926747e+06     14s
+      30     112786   6.0545088e+11  -2.1123132e+06     15s
+      31     116608   5.2302642e+11  -1.5860535e+06     15s
+      32     120447   4.3805208e+11  -1.1267626e+06     15s
+      33     124279   3.5018389e+11  -7.3949203e+05     15s
+      34     128122   2.6006983e+11  -4.2844914e+05     16s
+      35     131984   1.6702393e+11  -2.0624872e+05     16s
+      36     136011   7.1420195e+10  -7.8666280e+04     16s
+
+Sifting complete
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  145330   -4.9924421e+04   0.000000e+00   0.000000e+00     17s
+
+Root relaxation: objective -4.992442e+04, 145330 iterations, 12.82 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    -49924.42090 -49924.421  0.00%     -   18s
+
+Explored 0 nodes (145330 simplex iterations) in 18.65 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: -49924.4 -27775.9 
+No other solutions better than -49924.4
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -4.992442090000e+04, best bound -4.992442090000e+04, gap 0.0000%
+real 0m21,535s user 0m20,846s sys 0m0,643s

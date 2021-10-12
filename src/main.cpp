@@ -48,7 +48,7 @@ int main(int argc, char *argv[]){
 
         CbcModel model(solver);
 
-        unsigned int time = 10;
+        unsigned int time = 80;
 
         pthread_create(&(thread[0]), NULL, time_limit, &time);
 
@@ -70,7 +70,7 @@ int main(int argc, char *argv[]){
 
     //GUROBI
     else if(atoi(argv[1]) == 1){
-        unsigned int time = 10;
+        unsigned int time = 80;
 
         try {
             GRBEnv env = GRBEnv();
@@ -106,7 +106,7 @@ int main(int argc, char *argv[]){
     //HUNGARO
     else if(atoi(argv[1]) == 2){
 
-        unsigned int time = 10;
+        unsigned int time = 80;
 
         pthread_create(&(thread[0]), NULL, time_limit, &time);
         pthread_create(&thread[1], NULL, hungaro, NULL);

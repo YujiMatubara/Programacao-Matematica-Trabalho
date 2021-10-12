@@ -1,0 +1,178 @@
+Clp0006I 0  Obj 0 Primal inf 99.99999 (100) Dual inf 2499.9997 (2500)
+Clp0006I 47  Obj -1961 Primal inf 6350 (100)
+Clp0006I 86  Obj -1961 Primal inf 6295 (100)
+Clp0006I 121  Obj -1961 Primal inf 6059 (100)
+Clp0006I 161  Obj -1618 Primal inf 4715 (99)
+Clp0006I 206  Obj -1520 Primal inf 4873 (99)
+Clp0006I 243  Obj -1471 Primal inf 4863 (100)
+Clp0006I 285  Obj -1422 Primal inf 6199 (100)
+Clp0006I 327  Obj -1373 Primal inf 6264 (100)
+Clp0006I 366  Obj -1324 Primal inf 4873 (100)
+Clp0006I 408  Obj -1030 Primal inf 5276 (99)
+Clp0006I 446  Obj -1030 Primal inf 6455 (99)
+Clp0006I 490  Obj -1030 Primal inf 8109 (98)
+Clp0006I 537  Obj -1030 Primal inf 8020 (99)
+Clp0006I 580  Obj -1030 Primal inf 5820 (99)
+Clp0006I 623  Obj -981 Primal inf 5786 (98)
+Clp0006I 664  Obj -981 Primal inf 7329 (100)
+Clp0006I 707  Obj -932 Primal inf 6161 (99)
+Clp0006I 749  Obj -932 Primal inf 8947 (100)
+Clp0006I 792  Obj -932 Primal inf 5410 (100)
+Clp0006I 832  Obj -932 Primal inf 7105 (99)
+Clp0006I 884  Obj -932 Primal inf 5392 (100)
+Clp0006I 929  Obj -785 Primal inf 5807 (99)
+Clp0006I 974  Obj -687 Primal inf 6103 (99)
+Clp0006I 1010  Obj -687 Primal inf 6767 (99)
+Clp0006I 1053  Obj -687 Primal inf 5459 (100)
+Clp0006I 1101  Obj -687 Primal inf 7020 (100)
+Clp0006I 1147  Obj -638 Primal inf 6399 (100)
+Clp0006I 1192  Obj -638 Primal inf 6823 (100)
+Clp0006I 1237  Obj -638 Primal inf 4984 (97)
+Clp0006I 1282  Obj -638 Primal inf 6024 (99)
+Clp0006I 1325  Obj -638 Primal inf 5798 (99)
+Clp0006I 1365  Obj -638 Primal inf 6504 (98)
+Clp0006I 1411  Obj -589 Primal inf 6883 (99)
+Clp0006I 1456  Obj -491 Primal inf 5450 (97)
+Clp0006I 1498  Obj -491 Primal inf 5706 (99)
+Clp0006I 1547  Obj -491 Primal inf 5571 (100)
+Clp0006I 1592  Obj -491 Primal inf 5774 (100)
+Clp0006I 1644  Obj -491 Primal inf 6004 (100)
+Clp0006I 1688  Obj -491 Primal inf 9413 (100)
+Clp0006I 1731  Obj -491 Primal inf 7377 (100)
+Clp0006I 1772  Obj -491 Primal inf 7010 (100)
+Clp0006I 1815  Obj -491 Primal inf 5126 (99)
+Clp0006I 1853  Obj -491 Primal inf 6085 (99)
+Clp0006I 1897  Obj -491 Primal inf 4790 (99)
+Clp0006I 1945  Obj -491 Primal inf 7023 (99)
+Clp0006I 1987  Obj -491 Primal inf 7965 (99)
+Clp0006I 2027  Obj -491 Primal inf 5362 (99)
+Clp0006I 2084  Obj -50 Primal inf 5899 (98)
+Clp0006I 2134  Obj -50 Primal inf 4858 (98)
+Clp0006I 2185  Obj -50 Primal inf 5937 (99)
+Clp0006I 2224  Obj -50 Primal inf 7576 (97)
+Clp0006I 2270  Obj -50 Primal inf 4722 (98)
+Clp0006I 2312  Obj -50 Primal inf 6950 (97)
+Clp0006I 2365  Obj -50 Primal inf 5228 (97)
+Clp0006I 2405  Obj -50 Primal inf 6984 (99)
+Clp0006I 2448  Obj -50 Primal inf 5202 (99)
+Clp0006I 2502  Obj -50 Primal inf 7494 (98)
+Clp0006I 2543  Obj -50 Primal inf 5207 (99)
+Clp0006I 2590  Obj -50 Primal inf 6217 (99)
+Clp0006I 2633  Obj -50 Primal inf 5052 (98)
+Clp0006I 2676  Obj -50 Primal inf 5042 (99)
+Clp0006I 2727  Obj -50 Primal inf 3831 (98)
+Clp0006I 2774  Obj -50 Primal inf 6567 (99)
+Clp0006I 2819  Obj -50 Primal inf 3912 (97)
+Clp0006I 2867  Obj -50 Primal inf 5421 (99)
+Clp0006I 2921  Obj -50 Primal inf 5466 (97)
+Clp0006I 2969  Obj -50 Primal inf 3960 (99)
+Clp0006I 3016  Obj -50 Primal inf 3367 (99)
+Clp0006I 3057  Obj -50 Primal inf 2482 (98)
+Clp0006I 3123  Obj -50 Primal inf 3226 (97)
+Clp0006I 3165  Obj -50 Primal inf 5760 (97)
+Clp0006I 3209  Obj -50 Primal inf 2417 (96)
+Clp0006I 3264  Obj -50 Primal inf 3881 (97)
+Clp0006I 3316  Obj -50 Primal inf 2106 (95)
+Clp0006I 3362  Obj -50 Primal inf 2124 (98)
+Clp0006I 3422  Obj -50 Primal inf 2512 (95)
+Clp0006I 3472  Obj -50 Primal inf 2211 (99)
+Clp0006I 3527  Obj -50 Primal inf 1997 (95)
+Clp0006I 3580  Obj -50 Primal inf 2613 (97)
+Clp0006I 3622  Obj -50 Primal inf 3629 (97)
+Clp0006I 3667  Obj -50 Primal inf 3654 (99)
+Clp0006I 3718  Obj -50 Primal inf 2338 (99)
+Clp0006I 3767  Obj -50 Primal inf 1932 (98)
+Clp0006I 3806  Obj -50 Primal inf 3299 (99)
+Clp0006I 3849  Obj -50 Primal inf 1910 (99)
+Clp0006I 3907  Obj -50 Primal inf 1536 (98)
+Clp0006I 3977  Obj -50 Primal inf 1688 (94)
+Clp0006I 4032  Obj -50 Primal inf 1494 (96)
+Clp0006I 4073  Obj -50 Primal inf 1476 (94)
+Clp0006I 4122  Obj -50 Primal inf 1450 (97)
+Clp0006I 4165  Obj -50 Primal inf 1652 (98)
+Clp0006I 4216  Obj -50 Primal inf 1299 (98)
+Clp0006I 4276  Obj -50 Primal inf 924.99999 (99)
+Clp0006I 4337  Obj -50 Primal inf 1234 (95)
+Clp0006I 4386  Obj -50 Primal inf 925.99999 (96)
+Clp0006I 4452  Obj -50 Primal inf 644.99999 (96)
+Clp0006I 4511  Obj -50 Primal inf 1090 (93)
+Clp0006I 4550  Obj -50 Primal inf 1911 (95)
+Clp0006I 4597  Obj -50 Primal inf 1625 (94)
+Clp0006I 4639  Obj -50 Primal inf 1286 (96)
+Clp0006I 4683  Obj -50 Primal inf 1152 (96)
+Clp0006I 4723  Obj -50 Primal inf 631.99999 (93)
+Clp0006I 4764  Obj -50 Primal inf 1033 (94)
+Clp0006I 4807  Obj -50 Primal inf 1563 (94)
+Clp0006I 4850  Obj -50 Primal inf 1089 (92)
+Clp0006I 4897  Obj -50 Primal inf 907.99999 (93)
+Clp0006I 4942  Obj -50 Primal inf 669.99999 (90)
+Clp0006I 5004  Obj -50 Primal inf 463.99999 (88)
+Clp0006I 5058  Obj -50 Primal inf 479.99999 (87)
+Clp0006I 5121  Obj -50 Primal inf 369.99999 (87)
+Clp0006I 5173  Obj -50 Primal inf 242.99999 (82)
+Clp0014I Perturbing problem by 0.001% of 1 - largest nonzero change 1.0499084e-05 ( 0.0010499084%) - largest zero change 0
+Clp0006I 5230  Obj -50.000801 Primal inf 189.99999 (74)
+Clp0006I 5268  Obj -50.000549 Primal inf 105.99999 (64)
+Clp0006I 5317  Obj -50.000358 Primal inf 65.999996 (44)
+Clp0006I 5366  Obj -50.000262 Primal inf 20.999998 (17)
+Clp0006I 5399  Obj -50.000251
+Clp0000I Optimal - objective value -50
+Clp0000I Optimal - objective value -50
+Node 0 depth 0 unsatisfied 0 sum 0 obj -50 guess -50 branching on -1
+Clp0000I Optimal - objective value -50
+Cbc0004I Integer solution of -50 found after 0 iterations and 0 nodes (0.15 seconds)
+Cbc0001I Search completed - best objective -50, took 0 iterations and 0 nodes (0.15 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Clp0000I Optimal - objective value -50
+Clp0000I Optimal - objective value -50
+x_26 = 1
+x_65 = 1
+x_112 = 1
+x_157 = 1
+x_209 = 1
+x_264 = 1
+x_329 = 1
+x_356 = 1
+x_404 = 1
+x_471 = 1
+x_531 = 1
+x_558 = 1
+x_602 = 1
+x_653 = 1
+x_720 = 1
+x_798 = 1
+x_819 = 1
+x_877 = 1
+x_923 = 1
+x_975 = 1
+x_1028 = 1
+x_1080 = 1
+x_1132 = 1
+x_1185 = 1
+x_1242 = 1
+x_1268 = 1
+x_1324 = 1
+x_1350 = 1
+x_1422 = 1
+x_1483 = 1
+x_1516 = 1
+x_1561 = 1
+x_1610 = 1
+x_1651 = 1
+x_1736 = 1
+x_1790 = 1
+x_1834 = 1
+x_1887 = 1
+x_1917 = 1
+x_1963 = 1
+x_2046 = 1
+x_2055 = 1
+x_2138 = 1
+x_2189 = 1
+x_2241 = 1
+x_2293 = 1
+x_2345 = 1
+x_2394 = 1
+x_2447 = 1
+x_2499 = 1
+real 0m0,173s user 0m0,161s sys 0m0,011s

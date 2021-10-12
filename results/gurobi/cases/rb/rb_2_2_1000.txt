@@ -1,0 +1,84 @@
+Academic license - for non-commercial use only - expires 2022-10-07
+Read LP format model from file ./model.lp
+Reading time = 2.71 seconds
+OBJROW: 2000 rows, 1000000 columns, 2000000 nonzeros
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 2000 rows, 1000000 columns and 2000000 nonzeros
+Model fingerprint: 0xa28e925c
+Variable types: 0 continuous, 1000000 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [5e+00, 5e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective -26970.39424
+Presolve time: 3.72s
+Presolved: 2000 rows, 1000000 columns, 2000000 nonzeros
+Variable types: 0 continuous, 1000000 integer (1000000 binary)
+
+Starting sifting (using dual simplex for sub-problems)...
+
+    Iter     Pivots    Primal Obj      Dual Obj        Time
+       0          0     infinity     -2.7512366e+07      5s
+       1       2000   1.9587606e+12  -2.1647837e+07      5s
+       2       5832   1.9294647e+12  -2.1007173e+07      5s
+       3       9654   1.9000888e+12  -2.0370410e+07      6s
+       4      13477   1.8704929e+12  -1.9750296e+07      6s
+       5      17312   1.8411170e+12  -1.9133350e+07      6s
+       6      21129   1.8117551e+12  -1.8534690e+07      7s
+       7      24952   1.7823653e+12  -1.7938301e+07      7s
+       8      28756   1.7529754e+12  -1.7356388e+07      7s
+       9      32556   1.7238076e+12  -1.6784075e+07      8s
+      10      36361   1.6944138e+12  -1.6218242e+07      8s
+      11      40150   1.6650619e+12  -1.5657979e+07      8s
+      12      43948   1.6329441e+12  -1.5055033e+07      9s
+      13      47743   1.5981464e+12  -1.4424894e+07      9s
+      14      51545   1.5606927e+12  -1.3756694e+07      9s
+      15      55340   1.5203770e+12  -1.3066274e+07     10s
+      16      59158   1.4778073e+12  -1.2348819e+07     10s
+      17      62962   1.4324017e+12  -1.1610117e+07     10s
+      18      66787   1.3847381e+12  -1.0850019e+07     10s
+      19      70606   1.3341826e+12  -1.0074119e+07     11s
+      20      74436   1.2808032e+12  -9.2900871e+06     11s
+      21      78249   1.2250538e+12  -8.5030245e+06     11s
+      22      82070   1.1665285e+12  -7.7151423e+06     12s
+      23      85882   1.1052092e+12  -6.9324010e+06     12s
+      24      89707   1.0414920e+12  -6.1541908e+06     12s
+      25      93552   9.7488093e+11  -5.3989601e+06     13s
+      26      97383   9.0578793e+11  -4.6680643e+06     13s
+      27     101215   8.3411302e+11  -3.9644739e+06     13s
+      28     105051   7.5983021e+11  -3.2944196e+06     14s
+      29     108877   6.8286751e+11  -2.6697207e+06     14s
+      30     112719   6.0331892e+11  -2.0912695e+06     14s
+      31     116554   5.2107246e+11  -1.5705093e+06     15s
+      32     120391   4.3607012e+11  -1.1147284e+06     15s
+      33     124231   3.4842993e+11  -7.3021214e+05     15s
+      34     128078   2.5814788e+11  -4.2479028e+05     16s
+      35     131968   1.6538797e+11  -2.0305764e+05     16s
+      36     135985   6.9708236e+10  -7.7065725e+04     16s
+
+Sifting complete
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  144620   -4.9925673e+04   0.000000e+00   0.000000e+00     17s
+
+Root relaxation: objective -4.992567e+04, 144620 iterations, 12.73 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    -49925.67280 -49925.673  0.00%     -   18s
+
+Explored 0 nodes (144620 simplex iterations) in 18.52 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: -49925.7 -26970.4 
+No other solutions better than -49925.7
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -4.992567280000e+04, best bound -4.992567280000e+04, gap 0.0000%
+real 0m21,399s user 0m20,762s sys 0m0,599s

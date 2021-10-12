@@ -1,0 +1,84 @@
+Academic license - for non-commercial use only - expires 2022-10-07
+Read LP format model from file ./model.lp
+Reading time = 2.69 seconds
+OBJROW: 2000 rows, 1000000 columns, 2000000 nonzeros
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 2000 rows, 1000000 columns and 2000000 nonzeros
+Model fingerprint: 0x3f3004a8
+Variable types: 0 continuous, 1000000 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [5e+00, 5e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective -27323.39436
+Presolve time: 3.75s
+Presolved: 2000 rows, 1000000 columns, 2000000 nonzeros
+Variable types: 0 continuous, 1000000 integer (1000000 binary)
+
+Starting sifting (using dual simplex for sub-problems)...
+
+    Iter     Pivots    Primal Obj      Dual Obj        Time
+       0          0     infinity     -2.7476554e+07      5s
+       1       2000   1.9587606e+12  -2.1611975e+07      5s
+       2       5834   1.9293207e+12  -2.0970878e+07      5s
+       3       9665   1.8998408e+12  -2.0326658e+07      6s
+       4      13494   1.8703209e+12  -1.9701221e+07      6s
+       5      17318   1.8408871e+12  -1.9083853e+07      6s
+       6      21143   1.8113192e+12  -1.8479289e+07      7s
+       7      24949   1.7818853e+12  -1.7899085e+07      7s
+       8      28741   1.7525615e+12  -1.7319844e+07      7s
+       9      32558   1.7231956e+12  -1.6743184e+07      8s
+      10      36354   1.6937538e+12  -1.6180842e+07      8s
+      11      40156   1.6643900e+12  -1.5622043e+07      8s
+      12      43964   1.6321582e+12  -1.5028357e+07      9s
+      13      47780   1.5976044e+12  -1.4400867e+07      9s
+      14      51593   1.5602907e+12  -1.3741954e+07      9s
+      15      55393   1.5202330e+12  -1.3061158e+07     10s
+      16      59198   1.4777813e+12  -1.2344581e+07     10s
+      17      63022   1.4326777e+12  -1.1604161e+07     10s
+      18      66830   1.3846462e+12  -1.0854297e+07     11s
+      19      70646   1.3341427e+12  -1.0080893e+07     11s
+      20      74462   1.2809932e+12  -9.3047962e+06     11s
+      21      78281   1.2253458e+12  -8.5158619e+06     12s
+      22      82093   1.1669265e+12  -7.7276534e+06     12s
+      23      85906   1.1058512e+12  -6.9429336e+06     12s
+      24      89713   1.0418360e+12  -6.1744448e+06     13s
+      25      93528   9.7561094e+11  -5.4245532e+06     13s
+      26      97348   9.0662793e+11  -4.6902854e+06     13s
+      27     101169   8.3488502e+11  -3.9799125e+06     14s
+      28     104980   7.6040821e+11  -3.3099701e+06     14s
+      29     108803   6.8335951e+11  -2.6843475e+06     14s
+      30     112645   6.0395092e+11  -2.1118946e+06     15s
+      31     116466   5.2177645e+11  -1.5870996e+06     15s
+      32     120297   4.3671811e+11  -1.1240783e+06     15s
+      33     124111   3.4935591e+11  -7.3682012e+05     16s
+      34     127965   2.5917985e+11  -4.2764158e+05     16s
+      35     131840   1.6681394e+11  -2.0620100e+05     16s
+      36     135869   7.1694188e+10  -7.8931387e+04     17s
+
+Sifting complete
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  144567   -4.9926578e+04   0.000000e+00   0.000000e+00     17s
+
+Root relaxation: objective -4.992658e+04, 144567 iterations, 12.92 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    -49926.57820 -49926.578  0.00%     -   18s
+
+Explored 0 nodes (144567 simplex iterations) in 18.80 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: -49926.6 -27323.4 
+No other solutions better than -49926.6
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -4.992657820000e+04, best bound -4.992657820000e+04, gap 0.0000%
+real 0m21,653s user 0m21,064s sys 0m0,547s

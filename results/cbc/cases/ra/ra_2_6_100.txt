@@ -1,0 +1,117 @@
+Clp0006I 0  Obj 0 Primal inf 199.99998 (200) Dual inf 275987 (10000)
+Clp0006I 154  Obj -4990 Primal inf 362.99999 (147)
+Clp0006I 250  Obj -4983 Primal inf 167.99999 (115)
+Clp0006I 306  Obj -4983 Primal inf 300.99999 (95)
+Clp0006I 362  Obj -4976 Primal inf 119.99999 (54)
+Clp0006I 420  Obj -4968 Primal inf 39.999997 (29)
+Clp0006I 448  Obj -4966
+Clp0000I Optimal - objective value -4966
+Clp0000I Optimal - objective value -4966
+Node 0 depth 0 unsatisfied 0 sum 0 obj -4966 guess -4966 branching on -1
+Clp0000I Optimal - objective value -4966
+Cbc0004I Integer solution of -4966 found after 0 iterations and 0 nodes (0.04 seconds)
+Cbc0001I Search completed - best objective -4966, took 0 iterations and 0 nodes (0.04 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Clp0000I Optimal - objective value -4966
+Clp0000I Optimal - objective value -4966
+x_32 = 1
+x_194 = 1
+x_283 = 1
+x_374 = 1
+x_411 = 1
+x_507 = 1
+x_625 = 1
+x_730 = 1
+x_885 = 1
+x_910 = 1
+x_1024 = 1
+x_1193 = 1
+x_1256 = 1
+x_1389 = 1
+x_1499 = 1
+x_1591 = 1
+x_1692 = 1
+x_1701 = 1
+x_1886 = 1
+x_1944 = 1
+x_2075 = 1
+x_2142 = 1
+x_2213 = 1
+x_2366 = 1
+x_2405 = 1
+x_2578 = 1
+x_2618 = 1
+x_2752 = 1
+x_2853 = 1
+x_2927 = 1
+x_3029 = 1
+x_3102 = 1
+x_3212 = 1
+x_3322 = 1
+x_3461 = 1
+x_3504 = 1
+x_3671 = 1
+x_3757 = 1
+x_3897 = 1
+x_3926 = 1
+x_4017 = 1
+x_4141 = 1
+x_4236 = 1
+x_4382 = 1
+x_4451 = 1
+x_4534 = 1
+x_4659 = 1
+x_4762 = 1
+x_4848 = 1
+x_4998 = 1
+x_5049 = 1
+x_5116 = 1
+x_5284 = 1
+x_5368 = 1
+x_5450 = 1
+x_5581 = 1
+x_5639 = 1
+x_5764 = 1
+x_5870 = 1
+x_5995 = 1
+x_6063 = 1
+x_6169 = 1
+x_6240 = 1
+x_6376 = 1
+x_6465 = 1
+x_6514 = 1
+x_6667 = 1
+x_6745 = 1
+x_6808 = 1
+x_6958 = 1
+x_7033 = 1
+x_7160 = 1
+x_7247 = 1
+x_7388 = 1
+x_7421 = 1
+x_7528 = 1
+x_7677 = 1
+x_7754 = 1
+x_7800 = 1
+x_7990 = 1
+x_8046 = 1
+x_8119 = 1
+x_8203 = 1
+x_8309 = 1
+x_8406 = 1
+x_8555 = 1
+x_8620 = 1
+x_8779 = 1
+x_8843 = 1
+x_8973 = 1
+x_9031 = 1
+x_9187 = 1
+x_9272 = 1
+x_9338 = 1
+x_9423 = 1
+x_9537 = 1
+x_9615 = 1
+x_9780 = 1
+x_9896 = 1
+x_9935 = 1
+real 0m0,093s user 0m0,081s sys 0m0,012s

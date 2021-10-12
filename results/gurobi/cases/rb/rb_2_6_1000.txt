@@ -1,0 +1,84 @@
+Academic license - for non-commercial use only - expires 2022-10-07
+Read LP format model from file ./model.lp
+Reading time = 2.67 seconds
+OBJROW: 2000 rows, 1000000 columns, 2000000 nonzeros
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 2000 rows, 1000000 columns and 2000000 nonzeros
+Model fingerprint: 0x3ab65201
+Variable types: 0 continuous, 1000000 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [5e+00, 5e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective -27136.00669
+Presolve time: 3.74s
+Presolved: 2000 rows, 1000000 columns, 2000000 nonzeros
+Variable types: 0 continuous, 1000000 integer (1000000 binary)
+
+Starting sifting (using dual simplex for sub-problems)...
+
+    Iter     Pivots    Primal Obj      Dual Obj        Time
+       0          0     infinity     -2.7511297e+07      5s
+       1       2000   1.9587606e+12  -2.1640428e+07      5s
+       2       5826   1.9293567e+12  -2.0989653e+07      5s
+       3       9656   1.8998848e+12  -2.0361563e+07      6s
+       4      13488   1.8703929e+12  -1.9746732e+07      6s
+       5      17308   1.8411910e+12  -1.9133886e+07      6s
+       6      21129   1.8118591e+12  -1.8525872e+07      7s
+       7      24942   1.7824593e+12  -1.7929535e+07      7s
+       8      28739   1.7531154e+12  -1.7340070e+07      7s
+       9      32548   1.7235196e+12  -1.6762027e+07      8s
+      10      36343   1.6940538e+12  -1.6199203e+07      8s
+      11      40140   1.6647659e+12  -1.5641437e+07      8s
+      12      43951   1.6327902e+12  -1.5047206e+07      9s
+      13      47750   1.5981324e+12  -1.4419229e+07      9s
+      14      51561   1.5607007e+12  -1.3761665e+07      9s
+      15      55369   1.5208170e+12  -1.3066225e+07     10s
+      16      59174   1.4783833e+12  -1.2340625e+07     10s
+      17      62986   1.4330777e+12  -1.1596258e+07     10s
+      18      66810   1.3852201e+12  -1.0837795e+07     10s
+      19      70635   1.3347006e+12  -1.0061145e+07     11s
+      20      74459   1.2817252e+12  -9.2749004e+06     11s
+      21      78285   1.2257898e+12  -8.4894073e+06     11s
+      22      82119   1.1673605e+12  -7.7007836e+06     12s
+      23      85953   1.1064092e+12  -6.9147224e+06     12s
+      24      89788   1.0424040e+12  -6.1429023e+06     12s
+      25      93620   9.7596693e+11  -5.3898027e+06     13s
+      26      97445   9.0690592e+11  -4.6632287e+06     13s
+      27     101284   8.3553901e+11  -3.9677784e+06     13s
+      28     105120   7.6133220e+11  -3.3028214e+06     14s
+      29     108959   6.8412750e+11  -2.6806372e+06     14s
+      30     112798   6.0466690e+11  -2.1071627e+06     14s
+      31     116625   5.2260843e+11  -1.5851400e+06     15s
+      32     120465   4.3779409e+11  -1.1269983e+06     15s
+      33     124303   3.5027189e+11  -7.3983001e+05     15s
+      34     128161   2.6023583e+11  -4.3193309e+05     16s
+      35     132030   1.6746393e+11  -2.0872366e+05     16s
+      36     136054   7.2114178e+10  -7.9180739e+04     16s
+
+Sifting complete
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  145103   -4.9924654e+04   0.000000e+00   0.000000e+00     17s
+
+Root relaxation: objective -4.992465e+04, 145103 iterations, 12.88 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    -49924.65410 -49924.654  0.00%     -   18s
+
+Explored 0 nodes (145103 simplex iterations) in 18.69 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: -49924.7 -27136 
+No other solutions better than -49924.7
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -4.992465410000e+04, best bound -4.992465410000e+04, gap 0.0000%
+real 0m21,524s user 0m20,934s sys 0m0,547s

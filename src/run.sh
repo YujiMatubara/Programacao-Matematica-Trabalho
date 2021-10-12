@@ -49,4 +49,5 @@ hungaro $insta;
 hungaro $insta;
 }
 
-GUROBI;
+CBC;
+#GUROBI;

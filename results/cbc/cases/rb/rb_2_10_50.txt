@@ -1,0 +1,63 @@
+Clp0006I 0  Obj 0 Primal inf 99.99999 (100) Dual inf 69373.528 (2500)
+Clp0006I 91  Obj -2430.5131 Primal inf 20.999998 (17)
+Clp0006I 112  Obj -2421.1546
+Clp0000I Optimal - objective value -2421.1546
+Clp0000I Optimal - objective value -2421.1546
+Node 0 depth 0 unsatisfied 0 sum 0 obj -2421.15 guess -2421.15 branching on -1
+Clp0000I Optimal - objective value -2421.1546
+Cbc0004I Integer solution of -2421.1546 found after 0 iterations and 0 nodes (0.01 seconds)
+Cbc0001I Search completed - best objective -2421.154599999999, took 0 iterations and 0 nodes (0.01 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Clp0000I Optimal - objective value -2421.1546
+Clp0000I Optimal - objective value -2421.1546
+x_8 = 1
+x_86 = 1
+x_134 = 1
+x_181 = 1
+x_207 = 1
+x_293 = 1
+x_342 = 1
+x_399 = 1
+x_440 = 1
+x_476 = 1
+x_516 = 1
+x_577 = 1
+x_638 = 1
+x_682 = 1
+x_735 = 1
+x_759 = 1
+x_817 = 1
+x_894 = 1
+x_929 = 1
+x_978 = 1
+x_1037 = 1
+x_1089 = 1
+x_1103 = 1
+x_1173 = 1
+x_1220 = 1
+x_1274 = 1
+x_1304 = 1
+x_1355 = 1
+x_1400 = 1
+x_1475 = 1
+x_1521 = 1
+x_1562 = 1
+x_1610 = 1
+x_1665 = 1
+x_1706 = 1
+x_1798 = 1
+x_1802 = 1
+x_1872 = 1
+x_1947 = 1
+x_1968 = 1
+x_2011 = 1
+x_2095 = 1
+x_2114 = 1
+x_2180 = 1
+x_2241 = 1
+x_2283 = 1
+x_2313 = 1
+x_2396 = 1
+x_2419 = 1
+x_2451 = 1
+real 0m0,040s user 0m0,022s sys 0m0,017s

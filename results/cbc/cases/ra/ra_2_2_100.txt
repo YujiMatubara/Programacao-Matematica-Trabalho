@@ -1,0 +1,116 @@
+Clp0006I 0  Obj 0 Primal inf 199.99998 (200) Dual inf 275849 (10000)
+Clp0006I 165  Obj -4990 Primal inf 340.99999 (136)
+Clp0006I 260  Obj -4990 Primal inf 174.99999 (96)
+Clp0006I 341  Obj -4980 Primal inf 83.999995 (55)
+Clp0006I 391  Obj -4975 Primal inf 59.999997 (29)
+Clp0006I 426  Obj -4973
+Clp0000I Optimal - objective value -4973
+Clp0000I Optimal - objective value -4973
+Node 0 depth 0 unsatisfied 0 sum 0 obj -4973 guess -4973 branching on -1
+Clp0000I Optimal - objective value -4973
+Cbc0004I Integer solution of -4973 found after 0 iterations and 0 nodes (0.04 seconds)
+Cbc0001I Search completed - best objective -4973, took 0 iterations and 0 nodes (0.04 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Clp0000I Optimal - objective value -4973
+Clp0000I Optimal - objective value -4973
+x_41 = 1
+x_191 = 1
+x_277 = 1
+x_310 = 1
+x_471 = 1
+x_528 = 1
+x_602 = 1
+x_744 = 1
+x_858 = 1
+x_959 = 1
+x_1051 = 1
+x_1126 = 1
+x_1219 = 1
+x_1382 = 1
+x_1472 = 1
+x_1523 = 1
+x_1647 = 1
+x_1794 = 1
+x_1870 = 1
+x_1986 = 1
+x_2074 = 1
+x_2138 = 1
+x_2289 = 1
+x_2333 = 1
+x_2468 = 1
+x_2516 = 1
+x_2624 = 1
+x_2799 = 1
+x_2807 = 1
+x_2979 = 1
+x_3073 = 1
+x_3125 = 1
+x_3252 = 1
+x_3315 = 1
+x_3467 = 1
+x_3529 = 1
+x_3620 = 1
+x_3700 = 1
+x_3857 = 1
+x_3942 = 1
+x_4069 = 1
+x_4103 = 1
+x_4253 = 1
+x_4304 = 1
+x_4485 = 1
+x_4575 = 1
+x_4613 = 1
+x_4763 = 1
+x_4893 = 1
+x_4990 = 1
+x_5006 = 1
+x_5143 = 1
+x_5254 = 1
+x_5378 = 1
+x_5461 = 1
+x_5518 = 1
+x_5660 = 1
+x_5740 = 1
+x_5805 = 1
+x_5950 = 1
+x_6064 = 1
+x_6166 = 1
+x_6231 = 1
+x_6321 = 1
+x_6414 = 1
+x_6545 = 1
+x_6681 = 1
+x_6736 = 1
+x_6827 = 1
+x_6955 = 1
+x_7032 = 1
+x_7112 = 1
+x_7222 = 1
+x_7392 = 1
+x_7496 = 1
+x_7580 = 1
+x_7687 = 1
+x_7788 = 1
+x_7895 = 1
+x_7930 = 1
+x_8017 = 1
+x_8101 = 1
+x_8297 = 1
+x_8356 = 1
+x_8498 = 1
+x_8534 = 1
+x_8684 = 1
+x_8748 = 1
+x_8808 = 1
+x_8962 = 1
+x_9065 = 1
+x_9183 = 1
+x_9249 = 1
+x_9335 = 1
+x_9446 = 1
+x_9509 = 1
+x_9639 = 1
+x_9711 = 1
+x_9876 = 1
+x_9937 = 1
+real 0m0,093s user 0m0,077s sys 0m0,016s

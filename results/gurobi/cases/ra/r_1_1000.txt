@@ -1,0 +1,28 @@
+Academic license - for non-commercial use only - expires 2022-10-07
+Read LP format model from file ./model.lp
+Reading time = 2.38 seconds
+OBJROW: 2000 rows, 1000000 columns, 2000000 nonzeros
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 2000 rows, 1000000 columns and 2000000 nonzeros
+Model fingerprint: 0x97157eaa
+Variable types: 0 continuous, 1000000 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective -1000.0000000
+Presolve time: 3.71s
+Presolved: 2000 rows, 1000000 columns, 2000000 nonzeros
+Variable types: 0 continuous, 1000000 integer (1000000 binary)
+
+Explored 0 nodes (0 simplex iterations) in 4.36 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: -1000 
+No other solutions better than -1000
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -1.000000000000e+03, best bound -1.000000000000e+03, gap 0.0000%
+real 0m6,893s user 0m6,326s sys 0m0,541s
