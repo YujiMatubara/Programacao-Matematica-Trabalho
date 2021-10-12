@@ -1,3 +1,4 @@
+import os
 from mip import Model, BINARY, MAXIMIZE, solver, xsum, CBC, maximize
 import pandas as pd
 import numpy as np
@@ -12,7 +13,7 @@ c = c.to_numpy() #Transforming to numpy matrix
 
 
 #Inst model
-m = Model(sense=MAXIMIZE, solver_name=CBC,solver_name="solver")
+m = Model(sense=MAXIMIZE, solver_name=CBC)
 
 n = len(c) #Finding matrix n
 N = set(range(n)) # Define 
@@ -30,12 +31,7 @@ for i in N:
 for j in N:
     m += xsum(x[i][j] for i in N) == 1
 
-m.write('model.lp')
+m.optimize(max_seconds=10)
 
-#m.optimize()
-#for i in [j for j in N if x[j][j].x >= 0.99]:
-#    print(
-#        "Items grouped with {} : {}".format(
-#            i, [j for j in N if i != j and x[i][j].x >= 0.99]
-#        )
-#    )
+#m.write('model.lp')
+#os.system("make cpp")

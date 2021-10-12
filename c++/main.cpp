@@ -10,8 +10,6 @@
 #include <cassert>
 #include <stdio.h>
 
-//#include "gurobi_c++.h"
-
 #include <coin-or/CbcModel.hpp>
 #include "coin-or/OsiClpSolverInterface.hpp"
 
@@ -20,7 +18,7 @@ using namespace std;
 int main(int argc, char *argv[]){
     OsiClpSolverInterface solver;
 
-    int numMpsReadErrors = solver.readLp("model.lp");
+    solver.readLp("model.lp");
 
     CbcModel model(solver);
 
@@ -31,17 +29,10 @@ int main(int argc, char *argv[]){
 
     for (int iColumn = 0; iColumn < numberColumns; iColumn++) {
         double value = solution[iColumn];
-        if (fabs(value) > 1.0e-7 && model.solver()->isContinuous(iColumn)){
+        if (fabs(value) > 1.0e-7){
             printf("x_%d has value %g\n", iColumn, value);
         }
     }
 
     return 0;
 }
-
-
-/*
-
-
-
-*/
