@@ -8,7 +8,7 @@ Antes de começar, para compilar, linkar e construir o programa:
 ```sh
 
     make
-``
+```
 
 
 Para rodar o programa:
