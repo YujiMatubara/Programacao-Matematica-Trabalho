@@ -6,21 +6,18 @@ Antes de começar, para compilar, linkar e construir o programa:
 
 
 ```sh
-
-    make
+make
 ```
 
 
 Para rodar o programa:
 
 ```sh
-
-    make run args=nome_do_arquivo
+make run args=nome_do_arquivo
 ```
 
 Por conveniencia, pode-se rodar o script run.sh para executar todas as instancias de tal problema. Para isso, utiliza-se:
 
 ```sh
-
-    make script
+make script
 ```
