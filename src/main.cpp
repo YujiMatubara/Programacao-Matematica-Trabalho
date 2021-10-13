@@ -11,6 +11,10 @@
 #include <unistd.h>
 #include <signal.h>
 #include <string>
+#include <vector>
+#include <fstream>
+#include <sstream>
+#include <iostream>
 #include "gurobi_c++.h"
 #include "Hungarian.h"
 
@@ -107,10 +111,23 @@ int main(int argc, char *argv[]){
     //HUNGARO
     else if(atoi(argv[1]) == 2){
 
-
         vector<vector<double>> c;
-        //FAZER A LEITURA AQUI//
-        //LER DOS ARQUIVOS TXT E GUARDAR EM VECTOR<VECTOR<double>> QUE EH O C ALI EMBAIXO
+        ifstream file(argv[2]);
+        string line;
+
+        while(getline(file, line)){
+
+            vector<double> line_buffer;
+            stringstream  buffer(line);
+            double aux;
+
+            while(buffer >> aux)
+                line_buffer.push_back(aux);
+            
+            c.push_back(line_buffer);
+        }
+        
+        file.close();
 
         unsigned int time = 80;
         double custo;
@@ -118,18 +135,15 @@ int main(int argc, char *argv[]){
         vector<int> A;
         HungarianAlgorithm model;
 
+        pthread_create(&(thread[0]), NULL, time_limit, &time);
+
         custo  = model.Solve(c, A);
 
-        for (unsigned int i = 0; i < c.size(); i++){
-            printf("x_%d = %d",A[i]);
+        for(int i = 0; i < (int)(c.size()); i++){
+            printf("Agente %d realiza a tarefa %d!\n",i+1,A[i]);
         }
 
-        printf("Cost: %lf",custo);
-
-        pthread_create(&(thread[0]), NULL, time_limit, &time);
-        pthread_create(&thread[1], NULL, hungaro, NULL);
-
-        pthread_join(thread[1], NULL);
+        printf("Cost: %.2lf\n",custo);
 
         exit(EXIT_SUCCESS);
 

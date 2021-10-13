@@ -24,8 +24,7 @@ gurobi(){
 hungaro(){
     for f in $@
     do
-    python3 main.py $f
-    TIME=$(time ($(./Main.bin 2 > ../results/hungaro/cases/${f//inst/r}) >/dev/null 2>&1) 2>&1)
+    TIME=$(time ($(./Main.bin 2 $f > ../results/hungaro/cases/${f//inst/r}) >/dev/null 2>&1) 2>&1)
     echo $TIME >> ../results/hungaro/cases/${f//inst/r}
     done
 }
@@ -46,8 +45,9 @@ gurobi $instb;
 
 HUNGARO(){
 hungaro $insta;
-hungaro $insta;
+hungaro $instb;
 }
 
-CBC;
+#CBC;
 #GUROBI;
+HUNGARO;

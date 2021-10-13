@@ -10,9 +10,8 @@ c = pd.read_csv(path, sep = " ", header = None) #Matrix with data
 c.drop(c.columns[c.shape[1] - 1], axis = 1, inplace = True) #Cleaning the last column
 c = c.to_numpy() #Transforming to numpy matrix
 
-
 #Inst model
-m = Model(sense=MAXIMIZE, solver_name=CBC)
+m = Model(sense=MAXIMIZE)
 
 n = len(c) #Finding matrix n
 N = set(range(n)) # Define 
