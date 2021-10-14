@@ -1,0 +1,73 @@
+Academic license - for non-commercial use only - expires 2022-10-07
+Read LP format model from file ./model.lp
+Reading time = 0.67 seconds
+OBJROW: 1000 rows, 250000 columns, 500000 nonzeros
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 1000 rows, 250000 columns and 500000 nonzeros
+Model fingerprint: 0xa74c5aa0
+Variable types: 0 continuous, 250000 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [5e+00, 5e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective -123550.8792
+Presolve time: 0.85s
+Presolved: 1000 rows, 250000 columns, 500000 nonzeros
+Variable types: 0 continuous, 250000 integer (250000 binary)
+
+Starting sifting (using dual simplex for sub-problems)...
+
+    Iter     Pivots    Primal Obj      Dual Obj        Time
+       0          0     infinity     -6.3116354e+07      1s
+       1       1000   4.8312499e+11  -5.7984972e+07      1s
+       2       2920   4.7518508e+11  -5.6070977e+07      1s
+       3       4843   4.6330929e+11  -5.3272234e+07      1s
+       4       6742   4.5149357e+11  -5.0581113e+07      1s
+       5       8639   4.3961991e+11  -4.7960065e+07      1s
+       6      10545   4.2779033e+11  -4.5455701e+07      2s
+       7      12454   4.1594281e+11  -4.2978109e+07      2s
+       8      14349   4.0409736e+11  -4.0594387e+07      2s
+       9      16250   3.9228198e+11  -3.8281313e+07      2s
+      10      18145   3.8036468e+11  -3.6029038e+07      2s
+      11      20036   3.6849344e+11  -3.3853334e+07      2s
+      12      21938   3.5561035e+11  -3.1533511e+07      2s
+      13      23831   3.4164142e+11  -2.9112023e+07      2s
+      14      25732   3.2656869e+11  -2.6664314e+07      2s
+      15      27633   3.1060215e+11  -2.4125608e+07      2s
+      16      29537   2.9347786e+11  -2.1602889e+07      2s
+      17      31439   2.7537582e+11  -1.9064987e+07      2s
+      18      33344   2.5631607e+11  -1.6519469e+07      2s
+      19      35264   2.3606865e+11  -1.4070629e+07      3s
+      20      37178   2.1486757e+11  -1.1703321e+07      3s
+      21      39098   1.9999375e+11  -1.0178690e+07      3s
+      22      41007   1.7672738e+11  -8.0041098e+06      3s
+      23      42928   1.6061006e+11  -6.6406154e+06      3s
+      24      44847   1.3528452e+11  -4.7850649e+06      3s
+      25      46764   1.1783578e+11  -3.6796585e+06      3s
+      26      48686   9.0383219e+10  -2.2785823e+06      3s
+      27      50612   7.1611149e+10  -1.5217607e+06      3s
+      28      52570   4.2241650e+10  -6.9131702e+05      3s
+      29      54584   2.1986383e+10  -3.6887624e+05      3s
+      30      57569   1.0754826e+09  -2.9509432e+05      3s
+
+Sifting complete
+
+
+Root relaxation: objective -2.491940e+05, 61915 iterations, 2.62 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    -249194.0260 -249194.03  0.00%     -    3s
+
+Explored 0 nodes (61915 simplex iterations) in 3.98 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: -249194 -123551 
+No other solutions better than -249194
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.491940260000e+05, best bound -2.491940260000e+05, gap 0.0000%
+real 0m4,725s user 0m4,542s sys 0m0,161s

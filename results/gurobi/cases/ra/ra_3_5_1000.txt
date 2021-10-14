@@ -1,0 +1,86 @@
+Academic license - for non-commercial use only - expires 2022-10-07
+Read LP format model from file ./model.lp
+Reading time = 2.57 seconds
+OBJROW: 2000 rows, 1000000 columns, 2000000 nonzeros
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 2000 rows, 1000000 columns and 2000000 nonzeros
+Model fingerprint: 0x5ea83fa9
+Variable types: 0 continuous, 1000000 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [5e+00, 5e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective -248254.0000
+Presolve time: 3.73s
+Presolved: 2000 rows, 1000000 columns, 2000000 nonzeros
+Variable types: 0 continuous, 1000000 integer (1000000 binary)
+
+Starting sifting (using dual simplex for sub-problems)...
+
+    Iter     Pivots    Primal Obj      Dual Obj        Time
+       0          0     infinity     -2.5236798e+08      5s
+       1       2000   1.9585358e+12  -2.3847382e+08      5s
+       2       5874   1.9312741e+12  -2.3166624e+08      5s
+       3       9768   1.9016544e+12  -2.2495733e+08      5s
+       4      13660   1.8734009e+12  -2.1834754e+08      5s
+       5      17518   1.8450874e+12  -2.1183623e+08      6s
+       6      21390   1.8170201e+12  -2.0542351e+08      6s
+       7      25241   1.7900388e+12  -1.9910966e+08      6s
+       8      29096   1.7613476e+12  -1.9289404e+08      6s
+       9      32948   1.7324746e+12  -1.8677884e+08      6s
+      10      36797   1.7047176e+12  -1.8076387e+08      7s
+      11      40632   1.6766827e+12  -1.7484737e+08      7s
+      12      44489   1.6466220e+12  -1.6902951e+08      7s
+      13      48350   1.6157455e+12  -1.6250186e+08      7s
+      14      52202   1.5798974e+12  -1.5531299e+08      7s
+      15      56066   1.5398616e+12  -1.4751606e+08      8s
+      16      59909   1.4983322e+12  -1.3992145e+08      8s
+      17      63775   1.4522513e+12  -1.3180063e+08      8s
+      18      67616   1.4060246e+12  -1.2321922e+08      8s
+      19      71488   1.3565505e+12  -1.1492560e+08      8s
+      20      75373   1.3051389e+12  -1.0627035e+08      9s
+      21      79228   1.2488260e+12  -9.7329989e+07      9s
+      22      83082   1.1896658e+12  -8.8189086e+07      9s
+      23      86954   1.1290783e+12  -7.9501560e+07      9s
+      24      90826   1.0656095e+12  -7.0731258e+07      9s
+      25      94675   9.9969154e+11  -6.2474317e+07     10s
+      26      98553   9.3333617e+11  -5.4734362e+07     10s
+      27     102438   8.6584751e+11  -4.7077806e+07     10s
+      28     106326   7.9357015e+11  -3.9601653e+07     10s
+      29     110187   7.1938374e+11  -3.2415403e+07     11s
+      30     114067   6.4058680e+11  -2.5959370e+07     11s
+      31     117950   5.5781534e+11  -1.9673233e+07     11s
+      32     121844   4.9738849e+11  -1.5980314e+07     11s
+      33     125747   4.1275887e+11  -1.1181769e+07     12s
+      34     129645   3.5274902e+11  -8.2954200e+06     12s
+      35     133536   2.6456569e+11  -4.8816640e+06     12s
+      36     137453   2.0120570e+11  -3.0130790e+06     12s
+      37     141450   1.0477798e+11  -1.1779900e+06     13s
+      38     145514   3.7846125e+10  -5.8112300e+05     13s
+
+Sifting complete
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  154408   -4.9965700e+05   0.000000e+00   0.000000e+00     14s
+
+Root relaxation: objective -4.996570e+05, 154408 iterations, 9.14 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    -499657.0000 -499657.00  0.00%     -   14s
+
+Explored 0 nodes (154408 simplex iterations) in 14.96 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: -499657 -248254 
+No other solutions better than -499657
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -4.996570000000e+05, best bound -4.996570000000e+05, gap 0.0000%
+real 0m17,695s user 0m17,109s sys 0m0,547s

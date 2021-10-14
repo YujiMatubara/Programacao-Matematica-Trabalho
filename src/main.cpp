@@ -11,7 +11,12 @@
 #include <unistd.h>
 #include <signal.h>
 #include <string>
+#include <vector>
+#include <fstream>
+#include <sstream>
+#include <iostream>
 #include "gurobi_c++.h"
+#include "Hungarian.h"
 
 
 using namespace std;
@@ -48,7 +53,7 @@ int main(int argc, char *argv[]){
 
         CbcModel model(solver);
 
-        unsigned int time = 10;
+        unsigned int time = 80;
 
         pthread_create(&(thread[0]), NULL, time_limit, &time);
 
@@ -70,7 +75,7 @@ int main(int argc, char *argv[]){
 
     //GUROBI
     else if(atoi(argv[1]) == 1){
-        unsigned int time = 10;
+        unsigned int time = 80;
 
         try {
             GRBEnv env = GRBEnv();
@@ -106,12 +111,39 @@ int main(int argc, char *argv[]){
     //HUNGARO
     else if(atoi(argv[1]) == 2){
 
-        unsigned int time = 10;
+        vector<vector<double>> c;
+        ifstream file(argv[2]);
+        string line;
+
+        while(getline(file, line)){
+
+            vector<double> line_buffer;
+            stringstream  buffer(line);
+            double aux;
+
+            while(buffer >> aux)
+                line_buffer.push_back(aux);
+            
+            c.push_back(line_buffer);
+        }
+        
+        file.close();
+
+        unsigned int time = 80;
+        double custo;
+        
+        vector<int> A;
+        HungarianAlgorithm model;
 
         pthread_create(&(thread[0]), NULL, time_limit, &time);
-        pthread_create(&thread[1], NULL, hungaro, NULL);
 
-        pthread_join(thread[1], NULL);
+        custo  = model.Solve(c, A);
+
+        for(int i = 0; i < (int)(c.size()); i++){
+            printf("Agente %d realiza a tarefa %d!\n",i+1,A[i]);
+        }
+
+        printf("Cost: %.2lf\n",custo);
 
         exit(EXIT_SUCCESS);
 

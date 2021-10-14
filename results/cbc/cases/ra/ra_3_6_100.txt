@@ -1,0 +1,115 @@
+Clp0006I 0  Obj 0 Primal inf 199.99998 (200) Dual inf 2523547 (10000)
+Clp0006I 151  Obj -49441 Primal inf 103.99999 (59)
+Clp0006I 209  Obj -49326 Primal inf 60.999997 (32)
+Clp0006I 270  Obj -49231 Primal inf 10.999999 (11)
+Clp0006I 288  Obj -49220
+Clp0000I Optimal - objective value -49220
+Clp0000I Optimal - objective value -49220
+Node 0 depth 0 unsatisfied 0 sum 0 obj -49220 guess -49220 branching on -1
+Clp0000I Optimal - objective value -49220
+Cbc0004I Integer solution of -49220 found after 0 iterations and 0 nodes (0.03 seconds)
+Cbc0001I Search completed - best objective -49220, took 0 iterations and 0 nodes (0.03 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Clp0000I Optimal - objective value -49220
+Clp0000I Optimal - objective value -49220
+x_62 = 1
+x_101 = 1
+x_264 = 1
+x_375 = 1
+x_473 = 1
+x_536 = 1
+x_635 = 1
+x_783 = 1
+x_874 = 1
+x_981 = 1
+x_1058 = 1
+x_1141 = 1
+x_1289 = 1
+x_1343 = 1
+x_1459 = 1
+x_1504 = 1
+x_1638 = 1
+x_1747 = 1
+x_1831 = 1
+x_1913 = 1
+x_2093 = 1
+x_2179 = 1
+x_2287 = 1
+x_2325 = 1
+x_2497 = 1
+x_2508 = 1
+x_2654 = 1
+x_2794 = 1
+x_2837 = 1
+x_2980 = 1
+x_3092 = 1
+x_3170 = 1
+x_3256 = 1
+x_3382 = 1
+x_3495 = 1
+x_3557 = 1
+x_3685 = 1
+x_3717 = 1
+x_3878 = 1
+x_3920 = 1
+x_4027 = 1
+x_4109 = 1
+x_4253 = 1
+x_4329 = 1
+x_4410 = 1
+x_4524 = 1
+x_4614 = 1
+x_4799 = 1
+x_4891 = 1
+x_4969 = 1
+x_5090 = 1
+x_5148 = 1
+x_5219 = 1
+x_5305 = 1
+x_5406 = 1
+x_5545 = 1
+x_5666 = 1
+x_5716 = 1
+x_5811 = 1
+x_5940 = 1
+x_6061 = 1
+x_6133 = 1
+x_6221 = 1
+x_6398 = 1
+x_6460 = 1
+x_6539 = 1
+x_6684 = 1
+x_6730 = 1
+x_6855 = 1
+x_6968 = 1
+x_7088 = 1
+x_7149 = 1
+x_7202 = 1
+x_7307 = 1
+x_7442 = 1
+x_7577 = 1
+x_7623 = 1
+x_7728 = 1
+x_7867 = 1
+x_7918 = 1
+x_8003 = 1
+x_8171 = 1
+x_8212 = 1
+x_8322 = 1
+x_8432 = 1
+x_8500 = 1
+x_8652 = 1
+x_8786 = 1
+x_8872 = 1
+x_8951 = 1
+x_9044 = 1
+x_9115 = 1
+x_9263 = 1
+x_9350 = 1
+x_9476 = 1
+x_9526 = 1
+x_9696 = 1
+x_9734 = 1
+x_9865 = 1
+x_9946 = 1
+real 0m0,094s user 0m0,069s sys 0m0,025s
